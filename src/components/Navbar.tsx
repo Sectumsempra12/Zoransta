@@ -9,7 +9,6 @@ const Navbar = () => {
   const [isConnected, setIsConnected] = useState(false);
 
   const connectWallet = async () => {
-    // Placeholder for wallet connection logic
     console.log('Connecting wallet...');
     setIsConnected(true);
   };
@@ -29,7 +28,7 @@ const Navbar = () => {
             <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">R</span>
             </div>
-            <span className="text-white font-bold text-xl">ReelsCoin</span>
+            <span className="text-white font-bold text-xl">Zoransta</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-6">

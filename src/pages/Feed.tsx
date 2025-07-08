@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Heart, Eye, Share, User, Video, Image, Coins, Search, Filter } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import image from '../../public/assests/Screenshot 2025-07-08 at 13.21.54.png';
 
 const Feed = () => {
   const { toast } = useToast();
@@ -17,15 +18,15 @@ const Feed = () => {
   const allContent = [
     {
       id: 1,
-      title: "Amazing Dance Performance",
+      title: "Couple BeachSide",
       creator: "DanceKing",
       type: "video" as const,
-      views: 15000,
-      likes: 890,
-      shares: 45,
+      views: 1,
+      likes: 0,
+      shares: 0,
       coinReward: 5.2,
-      timeAgo: "2h ago",
-      thumbnail: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=500&fit=crop"
+      timeAgo: "1min ago",
+      thumbnail: image,
     },
     {
       id: 2,
