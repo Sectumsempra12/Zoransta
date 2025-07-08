@@ -276,7 +276,7 @@ const Index = () => {
                 <Check size={20} />
                 <span className="font-medium">Wallet Connected</span>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Welcome to ReelsCoin!</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Welcome to Zoransta!</h3>
               <p className="text-gray-400">Your wallet is connected and ready to use</p>
             </div>
             
